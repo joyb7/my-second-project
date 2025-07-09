@@ -1,0 +1,102 @@
+.body {
+    background-color: rgb(230, 211, 187);
+
+}
+
+
+.nav {
+    display: inline;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #a047a8;
+    margin: 0;
+    shape-rendering: optimizeLegibility;
+}
+
+.title {
+    text-align: center;
+    font-size: 50px;
+    color: #243553;
+    padding-top: 20px;
+    font-style: oblique;
+}
+
+.second-title {
+    text-align: center;
+    font-size: 20px;
+    color: #243553;
+    padding-top: 20px;
+    font-style: italic;
+}
+
+.img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 20px;
+}
+
+.about {
+    text-align: center;
+    font-size: 20px;
+    color: #243553;
+    padding-top: 20px;
+}
+.about-title {
+    text-align: center;
+    font-size: 30px;
+    color: #243553;
+    padding-top: 20px;
+}
+
+.see-more {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+
+    width: 150px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    background-color: #a047a8;
+    color: white;
+    border-radius: 5px;
+    border: hwb(230 211 187);
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.login-section {
+    box-sizing: border-box;
+    box-shadow: #243553 0px 0px 10px;
+    background: #98b4df;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 30px 20px;
+}
+
+.login-title {
+    text-align: center;
+    font-size: 30px;
+    color: #243553;
+    padding-top: 20px;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+}
